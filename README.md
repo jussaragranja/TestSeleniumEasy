@@ -1,1 +1,1 @@
-seleniumEasy
+TestSeleniumEasy
