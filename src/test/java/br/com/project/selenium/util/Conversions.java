@@ -115,4 +115,10 @@ public class Conversions {
 			return false;
 		}
 	}
+
+	public static String intToString(int number){
+		String numberString = Integer.toString(number);
+
+		return numberString;
+	}
 }

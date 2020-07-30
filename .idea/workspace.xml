@@ -5,26 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a81aa1f3-f0b3-4349-9f85-9ca1445b8262" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/util/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/util/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/util/LoggerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TestSeleniumEasy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestSeleniumEasy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/seleniumEasy.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/core/CoreDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/core/CoreDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/core/CorePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/core/CorePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/core/CorePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/core/CorePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/page/PageBasicFormDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/page/PageBasicFormDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/page/PageHomeSeleniumEasy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/page/PageHomeSeleniumEasy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/test/TestSimpleBasicForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/test/TestSimpleBasicForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/util/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/util/Browser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/util/ConversorTipos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/util/ConversorTipos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/util/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/util/Property.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/util/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mindsetQA/util/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/core/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/page/PageHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/page/PageHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/page/inputforms/PageSimpleFormDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/page/inputforms/PageSimpleFormDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/test/TestSimpleBasicForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/test/TestSimpleBasicForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/util/Conversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/project/selenium/util/Conversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/linux/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/driver/linux/chromedriver" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +60,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.project.selenium.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/driver/" />
       <recent name="$PROJECT_DIR$/src/test/resources/driver/linux" />
@@ -84,14 +82,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestSimpleBasicForm.twoInputFileldTest">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSimpleBasicForm.realizarPrimeiroTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestSeleniumEasy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.project.selenium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.project.selenium.test" />
+      <option name="MAIN_CLASS_NAME" value="br.com.project.selenium.test.TestSimpleBasicForm" />
+      <option name="METHOD_NAME" value="realizarPrimeiroTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,8 +128,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSimpleBasicForm.singleInputFileldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestSeleniumEasy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.project.selenium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.project.selenium.test" />
+      <option name="MAIN_CLASS_NAME" value="br.com.project.selenium.test.TestSimpleBasicForm" />
+      <option name="METHOD_NAME" value="singleInputFileldTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSimpleBasicForm.twoInputFileldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestSeleniumEasy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.project.selenium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.project.selenium.test" />
+      <option name="MAIN_CLASS_NAME" value="br.com.project.selenium.test.TestSimpleBasicForm" />
+      <option name="METHOD_NAME" value="twoInputFileldTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSimpleBasicForm.twoInputFileldTest" />
+        <item itemvalue="JUnit.TestSimpleBasicForm.singleInputFileldTest" />
+        <item itemvalue="JUnit.TestSimpleBasicForm.realizarPrimeiroTest (1)" />
         <item itemvalue="JUnit.TestSimpleBasicForm.realizarPrimeiroTest" />
       </list>
     </recent_temporary>
@@ -141,6 +192,8 @@
       <workItem from="1595988605382" duration="4912000" />
       <workItem from="1595993633642" duration="108000" />
       <workItem from="1595993840654" duration="62000" />
+      <workItem from="1595993932613" duration="286000" />
+      <workItem from="1596040034937" duration="9362000" />
     </task>
     <servers />
   </component>
@@ -160,23 +213,68 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2658" y="284" key="#xdebugger.evaluate" timestamp="1596074591134">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2658" y="284" key="#xdebugger.evaluate/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596074591134" />
     <state x="787" y="318" width="424" height="491" key="FileChooserDialogImpl" timestamp="1595988864490">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="2683" y="298" width="424" height="491" key="FileChooserDialogImpl/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593550166123" />
     <state x="787" y="318" key="FileChooserDialogImpl/40.27.1880.1053@40.27.1880.1053" timestamp="1595988864490" />
-    <state x="1140" y="263" width="663" height="580" key="find.popup" timestamp="1595993897103">
-      <screen x="40" y="27" width="1880" height="1053" />
+    <state width="1834" height="339" key="GridCell.Tab.0.bottom" timestamp="1596074664617">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="1140" y="263" width="663" height="580" key="find.popup/40.27.1880.1053@40.27.1880.1053" timestamp="1595993897103" />
+    <state width="1834" height="339" key="GridCell.Tab.0.bottom/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596074664617" />
+    <state width="1834" height="339" key="GridCell.Tab.0.center" timestamp="1596074664617">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1834" height="339" key="GridCell.Tab.0.center/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596074664617" />
+    <state width="1834" height="339" key="GridCell.Tab.0.left" timestamp="1596074664617">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1834" height="339" key="GridCell.Tab.0.left/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596074664617" />
+    <state width="1834" height="339" key="GridCell.Tab.0.right" timestamp="1596074664617">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1834" height="339" key="GridCell.Tab.0.right/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596074664617" />
+    <state width="1834" height="339" key="GridCell.Tab.1.bottom" timestamp="1596074638915">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1834" height="339" key="GridCell.Tab.1.bottom/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596074638915" />
+    <state width="1834" height="339" key="GridCell.Tab.1.center" timestamp="1596074638915">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1834" height="339" key="GridCell.Tab.1.center/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596074638915" />
+    <state width="1834" height="339" key="GridCell.Tab.1.left" timestamp="1596074638915">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1834" height="339" key="GridCell.Tab.1.left/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596074638915" />
+    <state width="1834" height="339" key="GridCell.Tab.1.right" timestamp="1596074638915">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1834" height="339" key="GridCell.Tab.1.right/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596074638915" />
+    <state x="2433" y="198" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1596065396624">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2433" y="198" width="924" height="691" key="Maven.ArtifactSearchDialog/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596065396624" />
+    <state x="3043" y="242" width="678" height="783" key="find.popup" timestamp="1596040552851">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3043" y="242" width="678" height="783" key="find.popup/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596040552851" />
+    <state x="1140" y="263" width="663" height="580" key="find.popup/40.27.1880.1053@40.27.1880.1053" timestamp="1595994132709" />
+    <state x="2563" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1596071193703">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2563" y="239" width="672" height="678" key="search.everywhere.popup/40.27.1880.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596071193703" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/br/com/project/selenium/test/TestSimpleBasicForm.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/project/selenium/page/inputforms/PageSimpleFormDemo.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

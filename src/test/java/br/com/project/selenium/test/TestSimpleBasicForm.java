@@ -1,11 +1,11 @@
 package br.com.project.selenium.test;
 
 import br.com.project.selenium.page.inputforms.PageSimpleFormDemo;
+import br.com.project.selenium.util.Constants;
 import org.junit.Test;
 
 import br.com.project.selenium.core.BaseTest;
 import br.com.project.selenium.page.PageHome;
-import br.com.project.selenium.util.Property;
 
 /**
  * @author jussaragranja
@@ -13,20 +13,25 @@ import br.com.project.selenium.util.Property;
  */
 
 public class TestSimpleBasicForm extends BaseTest {
-	
-	
+
 	@Test
-	public void realizarPrimeiroTest() {
+	public void singleInputFileldTest() {
 		PageHome homeSeleniumEasy = new PageHome();
-		PageSimpleFormDemo simpleFormDemo = new PageSimpleFormDemo();
-		driver.navigate().to(Property.URL);
 		homeSeleniumEasy.acessarSimpleForm("BASIC EXAMPLES TO START WITH SELENIUM");
-		System.out.println("1 - Acesso Pagina SimpleForm");
-		simpleFormDemo.preencherMensagem("Teste");
-		System.out.println("2 - preechendo texto");
-		simpleFormDemo.clickEnviarMensagem();
-		System.out.println("3 - click");
-		simpleFormDemo.validaMensagem("Teste");
-		System.out.println("4 - validacao");
+		new PageSimpleFormDemo().enterMessage(Constants.MENSAGEM_TESTE)
+				.clickShowMessage()
+				.assertMessage(Constants.MENSAGEM_TESTE);
 	}
+
+	@Test
+	public void twoInputFileldTest() {
+		PageHome homeSeleniumEasy = new PageHome();
+		homeSeleniumEasy.acessarSimpleForm("BASIC EXAMPLES TO START WITH SELENIUM");
+		new PageSimpleFormDemo()
+				.enterA(2)
+				.enterB(2)
+				.clickGetTotal()
+				.assertSumEnterAEnterB();
+	}
+
 }

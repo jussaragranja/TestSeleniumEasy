@@ -1,5 +1,6 @@
 package br.com.project.selenium.core;
 
+import br.com.project.selenium.util.Property;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
@@ -26,6 +27,7 @@ public abstract class BaseTest {
 	
 	/*
 	 * Close driver
+	 * After Test
 	 */
 	@After
 	public void after(){
@@ -38,9 +40,11 @@ public abstract class BaseTest {
 	
 	/*
 	 * Instance of a new driver
+	 * Before Test
 	 */
 	@Before
 	public void before() throws MalformedURLException{
 		driver = DriverTest.getDriver();
+		driver.navigate().to(Property.URL);
 	}
 }

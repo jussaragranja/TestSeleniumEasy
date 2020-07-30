@@ -1,6 +1,8 @@
 package br.com.project.selenium.page;
 
 import br.com.project.selenium.core.DriverTest;
+import br.com.project.selenium.core.PageBase;
+import br.com.project.selenium.util.Log;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,13 +16,19 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * Class represents the page Home from site SeleniumEasy
  */
 
-public class PageHome {
+public class PageHome extends PageBase<PageHome> {
 
 	protected WebDriver driver;
 	public PageHome() {
 		this.driver = DriverTest.getDriver();
 		PageFactory.initElements(DriverTest.getDriver(), this);
 	}
+
+	@FindBy(id = "image-darkener")
+	private WebElement alertLearnSelenium;
+
+	@FindBy(xpath = "//*[@id=\"at-cv-lightbox-button-holder\"]/a[2]")
+	private WebElement botaoNoThanks;
 
 	@FindBy(xpath = "//div[@id='home']//h3[@class='head text-center']")
 	private WebElement tituloPage;
@@ -35,11 +43,14 @@ public class PageHome {
 	private WebElement selecaoSimpleFormDemo;
 
 	public void acessarSimpleForm(String text) {
+		if(isVisibility(alertLearnSelenium)){
+			botaoNoThanks.click();
+		}
 		botaoStart.click();
-		WebDriverWait driverWait = new WebDriverWait(DriverTest.getDriver(), 30);
-		driverWait.until(ExpectedConditions.visibilityOf(selecaoSimpleFormDemo));
+		aguardarElementoVisivel(selecaoSimpleFormDemo);
 		Assert.assertEquals(text, tituloBasicExemples.getText());
 		selecaoSimpleFormDemo.click();
+		Log.info("Acessando página SimpleForm");
 	}
 	
 }
